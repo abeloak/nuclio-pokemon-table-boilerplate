@@ -1,0 +1,42 @@
+.root {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+}
+
+.header > div {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.header > div:last-child {
+    border-right: 1px solid black;
+}
+
+.content > div > div{
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+
+}
+
+.content > div > div:last-child {
+    border-right: 1px solid black;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.cell {
+    width: 150px;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
